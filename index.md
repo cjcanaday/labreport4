@@ -35,7 +35,7 @@ Similar to the previous step, I used `<CTRL + R>` to search for "git", which bro
            `<CTRL + R> java -c <ENTER>`
            
            
-For this step, I began by moving into the `lab7/` directory, which we will be using to complete all commands going forward. I completed this by typing in `cd` followed by "l" and then `<TAB>` which autocompleted the line to `cd lab7/`. From here, I searched my command history using `<CTRL + R>` for "javac" to compile the relavent files for JUnit which brought up the correct command of ` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. Next, I searched using `<CTRL + R>` for "java -c" to run my JUnit tests, bringing up `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. This showed that Junit was failing its tests.
+For this step, I began by moving into the `lab7/` directory, which we will be using to complete all commands going forward. I completed this by typing in `cd` followed by "l" and then `<TAB>` which autocompleted the line to `cd lab7/`. From here, I searched my command history using `<CTRL + R>` for "javac" to compile the relavent files for JUnit which brought up the correct command of `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. Next, I searched using `<CTRL + R>` for "java -c" to run my JUnit tests, bringing up `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. This showed that Junit was failing its tests.
 
 ## Step 7: Edit and fix code
 
@@ -56,7 +56,7 @@ In order to fix this error, I needed to edit "ListExamples.java" which I did usi
 
 **Keys:** `<UP ARROW> (3 times) <ENTER>` `<UP ARROW> (3 times) <ENTER>`
 
-Now back at the terminal, I pressed the up arrow 3 times to return to the ` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command. I then pressed the up arrow another 3 times to get to the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command, pressing enter after both of these commands. This displayed the Junit result that all tests had passed.
+Now back at the terminal, I pressed the up arrow 3 times to return to the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command. I then pressed the up arrow another 3 times to get to the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command, pressing enter after both of these commands. This displayed the Junit result that all tests had passed.
 
 ## Step 9: Commit and push the resulting change to your Github account
 <img width="573" alt="Screen Shot 2023-05-21 at 9 54 10 PM" src="https://github.com/cjcanaday/labreport4/assets/40177716/5c86fb22-f4aa-4b28-9e46-6787f8df2d05">
