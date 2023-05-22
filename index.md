@@ -8,7 +8,7 @@
 
 **Keys:** `<CTRL + R> s <ENTER>`
 
-For this step, as I had already previously set up my SSH keys, removing the need of entering a password when logging in, I just needed to search my command history using `<CTRL + R>` for "ssh", which brought up the correct command of `ssh cs15lsp23rb@ieng6.ucsd.edu`. From there, I just hit "<ENTER>" so that the command would run.
+For this step, as I had already previously set up my SSH keys, removing the need of entering a password when logging in, I just needed to search my command history using `<CTRL + R>` for "ssh", which brought up the correct command of `ssh cs15lsp23rb@ieng6.ucsd.edu`.
 
 ## Step 5: Clone your fork of the repository from your Github account
 
@@ -19,7 +19,7 @@ For this step, as I had already previously set up my SSH keys, removing the need
 
 **Keys:** `<CTRL + R> git <ENTER>`
 
-Similar to the previous step, I used `<CTRL + R>` to search for "git", which brought up the correct command of `git clone https://github.com/cjcanaday/lab7.git` which is used to clone the lab7 directory. I once again hit "<ENTER>" to run the command.
+Similar to the previous step, I used `<CTRL + R>` to search for "git", which brought up the correct command of `git clone https://github.com/cjcanaday/lab7.git` which is used to clone the lab7 directory.
 
 
 ## Step 6: Run the tests, demonstrating that they fail
@@ -35,7 +35,7 @@ Similar to the previous step, I used `<CTRL + R>` to search for "git", which bro
            `<CTRL + R> java -c <ENTER>`
            
            
-For this step, I began by moving into the `lab7/` directory, which we will be using to complete all commands going forward. I completed this by typing in `cd` followed by "l" and then `<TAB>` which autocompleted the line to `cd lab7/`, after which I hit "<ENTER>". From here, I searched my command history using `<CTRL + R>` for "javac" to compile the relavent files for JUnit which brought up the correct command of ` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` afterwhich I hit "<ENTER>". Next, I searched using `<CTRL + R>` for "java -c" to run my JUnit tests, bringing up `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`, afterwhich I hit "<ENTER>" to run the the command. This showed that Junit was failing its tests.
+For this step, I began by moving into the `lab7/` directory, which we will be using to complete all commands going forward. I completed this by typing in `cd` followed by "l" and then `<TAB>` which autocompleted the line to `cd lab7/`. From here, I searched my command history using `<CTRL + R>` for "javac" to compile the relavent files for JUnit which brought up the correct command of ` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. Next, I searched using `<CTRL + R>` for "java -c" to run my JUnit tests, bringing up `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. This showed that Junit was failing its tests.
 
 ## Step 7: Edit and fix code
 
@@ -47,7 +47,7 @@ For this step, I began by moving into the `lab7/` directory, which we will be us
             `<UP> (6 times) <RIGHT> (12 times) i <BACKSPACE> 2 <ESC> :wq`
             
             
-In order to fix this error, I needed to edit "ListExamples.java" which I did using vim by first typing "vim" and then "L" followed by a tab to autocomplete, and then ".ja" followed by another tab to autocomplete. This yielded the command: `vim ListExamples.java`, which I then pressed "<ENTER>" to run. This opened the file using vim, with the cursor starting at the very bottom left. To reach the point of the bug, I pressed the up arrow 6 times, followed by the right arrow 12 times. Now over the part I wanted to change, I pressed "i" to enter the editing mode, `<BACKSPACE>` to remove the erroneous 1, "2" to correct the bug, `<ESC>` to exit editing mode, and then finally `:wq` to exit and save the file.
+In order to fix this error, I needed to edit "ListExamples.java" which I did using vim by first typing "vim" and then "L" followed by a tab to autocomplete, and then ".ja" followed by another tab to autocomplete. This yielded the command: `vim ListExamples.java`. This opened the file using vim, with the cursor starting at the very bottom left. To reach the point of the bug, I pressed the up arrow 6 times, followed by the right arrow 12 times. Now over the part I wanted to change, I pressed "i" to enter the editing mode, `<BACKSPACE>` to remove the erroneous 1, "2" to correct the bug, `<ESC>` to exit editing mode, and then finally `:wq` to exit and save the file.
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
