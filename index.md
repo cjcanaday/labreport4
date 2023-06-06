@@ -12,14 +12,14 @@ For this step, as I had already previously set up my SSH keys, removing the need
 
 ## Step 5: Clone your fork of the repository from your Github account
 
-<img width="568" alt="Screen Shot 2023-05-21 at 9 07 17 PM" src="https://github.com/cjcanaday/labreport4/assets/40177716/516cbe14-a471-467a-ae55-f86e2c94730b">
+<img width="511" alt="Screen Shot 2023-06-06 at 3 28 40 PM" src="https://github.com/cjcanaday/labreport4/assets/40177716/3922faef-45e7-47f2-a81f-8af11e3e2c60">
+
+<img width="556" alt="Screen Shot 2023-06-06 at 3 29 37 PM" src="https://github.com/cjcanaday/labreport4/assets/40177716/143a1217-2058-48cf-9ce9-fb602c689354">
 
 
-<img width="564" alt="Screen Shot 2023-05-21 at 9 07 31 PM" src="https://github.com/cjcanaday/labreport4/assets/40177716/795a7839-d972-4173-8e42-ca1812d58556">
+**Keys:** `<CTRL + R> gi <ENTER>`
 
-**Keys:** `<CTRL + R> git <ENTER>`
-
-Similar to the previous step, I used `<CTRL + R>` to search for "git", which brought up the correct command of `git clone https://github.com/cjcanaday/lab7.git` which is used to clone the lab7 directory.
+Similar to the previous step, I used `<CTRL + R>` to search for "gi", which brought up the correct command of `git clone git@github.com:cjcanaday/lab7.git` which is used to clone the lab7 directory through the use of the ssh keys we set up earlier in the lab.
 
 
 ## Step 6: Run the tests, demonstrating that they fail
@@ -60,6 +60,9 @@ Now back at the terminal, I pressed the up arrow 3 times to return to the `javac
 
 ## Step 9: Commit and push the resulting change to your Github account
 <img width="573" alt="Screen Shot 2023-05-21 at 9 54 10 PM" src="https://github.com/cjcanaday/labreport4/assets/40177716/5c86fb22-f4aa-4b28-9e46-6787f8df2d05">
+
+<img width="721" alt="Screen Shot 2023-06-06 at 3 35 37 PM" src="https://github.com/cjcanaday/labreport4/assets/40177716/63683660-acc0-49b8-9efd-ee8a3ec791b3">
+
 
 **Keys:** `git add ListExamples.java` `git commit -m "Fixed ListExamples.java"` `git push`
 
